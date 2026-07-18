@@ -74,26 +74,30 @@ body{
     margin-right:auto;
 }
 
+
 .buttons{
     margin-top:30px;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
 }
 
 .buttons a{
     display:inline-block;
-    margin:10px;
-    padding:12px 25px;
+    padding:12px 24px;
     background:#38bdf8;
     color:#020617;
     text-decoration:none;
     border-radius:30px;
     font-weight:bold;
-    transition:0.3s;
+    transition:0.3s ease;
 }
 
 .buttons a:hover{
     transform:scale(1.05);
+    background:#0ea5e9;
 }
-
 
 
 /* Sections */
