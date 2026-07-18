@@ -70,3 +70,31 @@ footer{
     padding:40px 20px;
     margin-top:50px;
 }
+.hero img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid white;
+    box-shadow:0 8px 25px rgba(0,0,0,0.3);
+    transition:0.4s;
+}
+
+.hero img:hover{
+    transform:scale(1.08) rotate(3deg);
+}
+
+.hero{
+    background:linear-gradient(135deg,#0b5ed7,#4facfe);
+    color:white;
+    padding:80px 20px;
+}
+
+.hero h1{
+    color:white;
+    font-size:50px;
+}
+
+.hero p{
+    color:white;
+}
+
